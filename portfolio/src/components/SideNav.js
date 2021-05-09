@@ -1,10 +1,11 @@
 import React from 'react';
-import { Sidebar } from '../styledComponents/Sidebar'
+import { Sidebar, Image, Title } from '../styledComponents/Sidebar'
 
 export default function SideNav(){
     return(
         <Sidebar>
-            <h1>I'm a Side bar</h1>
+            <Image src="https://1.bp.blogspot.com/-dlj06U4nyto/YDLpj-wwXiI/AAAAAAAAXF8/inqLOF2eaP4nYRoSzA7RSm_ddSRuxAIIACPcBGAsYHg/s320/IMG_1992.PNG"></Image>
+            <Title>Full Stack Software Developer</Title>
         </Sidebar>
     )
 }
