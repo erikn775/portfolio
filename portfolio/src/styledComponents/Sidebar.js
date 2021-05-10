@@ -20,4 +20,8 @@ export const Title = styled.p`
     font-size: 20px;
     text-align: center
 `
-
+export const Link = styled.p`
+    color: white;
+    font-size: 20px;
+    text-align: center
+`
